@@ -1,0 +1,121 @@
+/* contenedor header */
+.encabezado {
+    height: 16vh;
+    background-color: #1a0425;
+    position: fixed; 
+    width: 100%;
+    top: 0; 
+    left: 0;
+    z-index: 1000; 
+    display: grid;
+    grid-template-columns: 45px 1fr 55px;
+    grid-template-rows: 1fr;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    padding: 10px 0px;
+}
+
+/* Centro el logo menu */
+.centrarMenu
+{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.centrarEnlace
+{
+    justify-self: center;
+    align-content: center;
+    width: 70px;
+    height: 70px;
+}
+
+.menu{
+    /* display: block; */
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+.contenedorLogo{
+    cursor: pointer;
+}
+
+.logo
+{
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+
+.contenedorCarrito
+{
+    width: 60px;
+}
+
+.cart-counter {
+    position: absolute;
+    top: 1px;
+    color: #fff;
+    text-align: center;
+    background-color: red;
+    padding: 4px;
+    border-radius: 50%;
+    height: 17px;
+    width: 17px;
+    font-size: 15px;
+    z-index: 1001;
+}
+
+.cart-btn {
+
+    background-color: rgb(242, 145, 234);
+    padding: 10px;
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.cart-btn:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.contenedorBuscador
+{
+    grid-column: 1/4 ;
+    grid-row: 2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.buscadorProductos 
+{
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 30px;
+    width: 95%;
+    font-size: 18px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+@media (max-width: 500px) {
+    .cart-btn {
+        top: 5vh;
+        right: 12px;
+    }
+
+    .cart-counter {
+        top: 15px;
+        right: 5px;
+    }
+}
+

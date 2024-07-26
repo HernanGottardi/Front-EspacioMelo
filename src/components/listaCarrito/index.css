@@ -1,0 +1,74 @@
+
+.encabezado 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorCarrito{
+    width: 100%;
+}
+
+.lista
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px;
+    width: 100%;
+    justify-content: center;
+}
+
+.contenedorBotonComprar
+{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonConfirmarCompra
+{
+    width: 125px;
+    height: 45px;
+    border-radius: 13px;
+    font-size: 15px;
+    background-color: rgb(225, 36, 238);
+    color: white;
+    cursor: pointer;
+}
+
+.sinCompras
+{
+    font-size: 15px;
+    background-color: rgb(69, 0, 83);
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin-top: 50px;
+}
+
+.contenedorTotal
+{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(253, 242, 252, 0.745);
+    color: rgb(68, 68, 68);
+    border-radius: 20px;
+    text-align: center;
+    width: 90%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.sinCompras p
+{
+    margin: 0px;
+}

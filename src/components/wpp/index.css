@@ -1,0 +1,17 @@
+.wpp-btn {
+    z-index: 1000;
+    position: fixed;
+    top: 93%;
+    right: 5px;
+    padding: 10px;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    transition: transform 0.2s ease-in-out;
+    background-color:#25D366;
+}
+
+.wpp-btn:hover 
+{
+    cursor: pointer;
+}

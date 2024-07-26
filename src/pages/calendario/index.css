@@ -1,0 +1,176 @@
+.contenedorCalendario{
+    width: 100%;
+}
+.contendorBotones{
+    display: flex;
+    justify-content: space-between;
+}
+#calendar-days {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 95%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 0 auto;
+    font-size: 12px;
+    flex-flow: wrap;
+    font-family: "Roboto", sans-serif;
+}
+
+.day-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.day-container.selected 
+{
+    background-color: rgb(233, 36, 247);
+    color: #fff;
+}
+
+.date{
+    font-weight: bold;
+}
+
+.day-container:hover{
+    background-color: rgb(233, 36, 247);
+    color: white;
+}
+
+#calendar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 5px;
+}
+
+#calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#d010ca;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#month-year{
+    color: white;
+    font-family: Roboto, sans-serif;
+}
+
+#schedule-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.schedule{
+    font-family: Roboto, sans-serif;
+    background-color: white;
+    font-size: 12px;
+    width: 55px;
+    height: 15px;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+
+}
+
+
+
+.schedule.selected {
+    background-color: rgb(233, 36, 247);
+    color: #fff;
+}
+
+
+.schedule:hover
+{
+    background-color: rgb(233, 36, 247);
+    color: white;
+}
+
+#confirm-button{
+    margin-top: 10px;
+    width: 125px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: #d010ca;
+}
+
+#back-button{
+    margin-top: 10px;
+    width: 125px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: #d010ca;
+}
+
+h3 {
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 12px;
+    margin: 10px 0 10px 0;
+}
+#selected-date{
+    color: #ff06f7;
+}
+#calendar-header button 
+{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border:none;
+    text-align: center;
+    font-size: 15px;
+}
+
+#calendar-days-header {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#calendar-days-header div {
+    padding: 5px;
+    box-sizing: border-box;
+}
+.disabled {
+    background-color: #f0f0f0;
+    color: #ccc;
+}
+
+

@@ -1,0 +1,18 @@
+#wallet_container 
+{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wallet_container .mercadopago-button
+{
+    color: #fff;
+    cursor: pointer;
+    background-color: #6e5ae3;
+    border-radius: 13px;
+    width: 125px;
+    height: 45px;
+    font-size: 15px;
+}

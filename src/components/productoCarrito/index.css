@@ -1,0 +1,56 @@
+.content
+{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #35034f;
+    margin: 0 auto;
+    border-radius: 20px;
+    gap: 10px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    padding: 10px;
+}
+
+.imagenProductoCarrito 
+{
+    width: 45px;
+    height: 45px;
+    padding-left: 0px;
+}
+
+.precio
+{
+    text-align: center;
+    font-size: 15px;
+    
+}
+
+.nombre
+{
+    font-size: 12px;
+    text-align: center;
+    width: 200px;
+
+}
+
+.contenedorFechaHora
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contenedorFechaHora p 
+{
+    margin: 0;
+    padding: 10px;
+    color: white;
+}
+
+.botonQuitar
+{
+    cursor: pointer;
+}

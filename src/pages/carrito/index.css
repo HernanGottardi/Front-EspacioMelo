@@ -1,0 +1,25 @@
+.contenedorCompras .headerClose
+{
+    height: 40px;
+}
+
+.tituloCarrito
+{
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-family: roboto;
+}
+.subrayado
+{
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    width: 80%; 
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.contenedorBotonComprar
+{
+    display: flex;
+    justify-content: center;
+}
