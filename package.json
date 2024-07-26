@@ -2,11 +2,9 @@
   "name": "espacio-melo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "source": "src/index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "dependencies": {
     "firebase": "^10.12.3",
