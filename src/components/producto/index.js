@@ -75,6 +75,26 @@ export function initProductoComponent() {
                 params.goTo("/calendario")
 
             });
+            // Ver mas informacion del producto
+            this.shadowRoot.querySelector(".MasInformacion").addEventListener("click", (e)=>
+            {
+                e.preventDefault();
+
+                const productoSeleccionado = {
+                    nombre: this.getAttribute("nombre"),
+                    precio: this.getAttribute("precio"),
+                    img: this.getAttribute("img"), 
+                    descripcion: this.getAttribute("descripcion"), 
+                    duracion: this.getAttribute("duracion"), 
+                };
+
+                const estado = state.getState();
+                estado.masInformacion = productoSeleccionado;
+                state.setState(estado);
+
+                const params = this.params;
+                params.goTo("/informacionProducto")
+            });
         }
 
         static get observedAttributes() {

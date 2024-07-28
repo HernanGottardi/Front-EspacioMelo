@@ -138,7 +138,7 @@ export function initListaCarritoComponent() {
                             fechas: `${this.generateCartFechaHorario()}`,
                         };
 
-                        const response = await fetch("http://localhost:3000/create_preference", {
+                        const response = await fetch("https://servidor-espacio-melo-mxh67m6ab-hernans-projects-b8ac9745.vercel.app/create_preference", {
                             method: "POST",
                             headers: {
                                 "Content-Type": "application/json",

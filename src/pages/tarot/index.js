@@ -35,5 +35,8 @@ export function initPageTarot(params) {
     const headerComponent = div.querySelector("header-component");
     headerComponent.params = params;
 
+    const listaProductos = div.querySelector("lista-productos-component");
+    listaProductos.params = params;
+
     return div;
 }

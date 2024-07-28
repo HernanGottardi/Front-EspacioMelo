@@ -4,7 +4,8 @@ const state =
     data: {
         list: [],
         reservedDates: {}, 
-        lenCarrito: 0
+        lenCarrito: 0,
+        masInformacion: {}
     },
     listeners: [],
     getState(){

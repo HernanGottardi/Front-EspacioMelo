@@ -4,6 +4,7 @@ import {initPageTarot} from "./pages/tarot"
 import {initPageMenu} from "./pages/menu"
 import {initPageCarrito} from "./pages/carrito"
 import {initPageCalendario} from "./pages/calendario"
+import {initPageMasInfo} from "./pages/masInfo"
 
 // Configuracion de rutas.
 const routes = [
@@ -34,6 +35,10 @@ const routes = [
     {
         path: /\/calendario/,
         component: initPageCalendario
+    },
+    {
+        path: /\/informacionProducto/,
+        component: initPageMasInfo
     }
 ];
 

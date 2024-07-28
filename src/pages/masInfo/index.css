@@ -1,0 +1,74 @@
+.contenedorMasInfo
+{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloProducto
+{
+    text-align: center;
+    padding: 15px 20px;
+    margin: 0px;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: rgb(63, 3, 119);
+    margin: 20px;
+    margin-top: 0px;
+}
+
+.contenedorImgProducto
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgProducto
+{
+    width: 250px;
+    height: 250px;
+}
+
+.contenedorCaracteristicas, .contenedorDescripcion{
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(63, 3, 119);
+    padding: 10px;
+    margin: 10px;
+}
+
+.tituloCaracteristicas, .descripcionProducto
+{
+    padding: 10px;
+}
+
+.contenedorBoton
+{
+    display: flex;
+    justify-content: center;
+}
+
+.botonComprar {
+    width: 60%;
+    padding: 15px;  
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #d010ca;
+    color: white;
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-top: 15px;
+}
+
+.botonComprar:active {
+    transform: scale(0.95);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

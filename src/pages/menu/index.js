@@ -19,7 +19,6 @@ export function initPageMenu(params)
         <a class="opcionMenu opcionInicio">Inicio</a> 
         <a class="opcionMenu opcionSobreMi">Sobre mí</a>
         <a class="opcionMenu opcionTarot">Tarot</a>
-        <a class="opcionMenu opcionOtrosServicios">Más Sesiones</a> 
     `;
 
     contenedorMenu.appendChild(headerMenu)

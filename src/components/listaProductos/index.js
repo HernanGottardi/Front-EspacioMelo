@@ -53,7 +53,8 @@ export function initListaProductosComponent() {
                         productoComponent.setAttribute('nombre', objProducto.name);
                         productoComponent.setAttribute('precio', objProducto.price);
                         productoComponent.setAttribute('img', objProducto.img);
-        
+                        productoComponent.setAttribute('descripcion', objProducto.description);
+                        productoComponent.setAttribute('duracion', objProducto.duration);
                         contenedorLista.appendChild(productoComponent);
                     });
         
